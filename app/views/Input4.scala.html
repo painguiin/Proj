@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h2><p style="background-color: #FFFF66" align=center> <strong> <b> Welcome : ยินดีต้อนรับ  </b></strong></p></h2>
+<div class="container-fluid" style="background-color: #b9def0" >
+  <br>
+
+      <br><br><center>
+        <form action="/music_post" method="post">
+          <div class="form-group">
+            <label> ชื่อสินค้า :</label>
+            <select name="name">
+              <option value="1">กีตาร์</option>
+              <option value="2">เบส</option>
+              <option value="3">กลอง</option>
+              <option value="4">คีย์บอร์ด</option>
+            </select>
+          </div>
+          <table>
+
+
+            <tr>
+              <th>ยี่ห้อ</th>
+              <td><input type="text"name="brand"required></td>
+            </tr>
+
+            <tr>
+              <th>รุ่น</th>
+              <td><input type="text"name="model"required></td>
+            </tr>
+
+            <tr>
+              <th>ราคา</th>
+              <td><input type="number"name="price"></td>
+            </tr>
+
+            <tr>
+              <th>จำนวน</th>
+              <td><input type="number"name="amount"></td>
+            </tr>
+
+            <tr>
+              <th></th>
+              <td></td>
+            </tr>
+          </table><br>
+
+    <input type="submit"value="บันทึก"class="btn-success">
+    <input type="reset"value="ยกเลิก"class="btn-danger">
+          <br><br><br>
+
+        </form></center>
+</body>
+</html>
